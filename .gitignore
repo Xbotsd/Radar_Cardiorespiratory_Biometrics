@@ -218,3 +218,49 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# =====================================
+# Deep Learning & Signal Processing
+# =====================================
+# Datasets & Raw Data
+*.csv
+*.mat
+*.zlib
+*.bin
+*.h5
+*.hdf5
+*.npy
+*.npz
+dataset/
+data/
+
+# Model Weights & Checkpoints (Crucial for IP protection)
+*.pth
+*.pt
+*.ckpt
+*.weights
+*.onnx
+*.tflite
+saved_models/
+checkpoints/
+
+# Logs & Outputs
+*.log
+outputs/
+results/
+runs/
+wandb/
+tensorboard/
+
+# =====================================
+# IDE & OS specific
+# =====================================
+# VS Code & PyCharm
+.vscode/
+.idea/
+*.swp
+
+# Mac OS
+.DS_Store
+
+# Windows
+Thumbs.db
