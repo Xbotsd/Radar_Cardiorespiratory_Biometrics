@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rcb"
-version = "1.0.0"
+version = "1.0.1"
 description = "Radar cardiorespiratory biometrics: leakage-aware evaluation of vital signs, open-set identification and cross-species discrimination"
 readme = "README.md"
 requires-python = ">=3.10"
