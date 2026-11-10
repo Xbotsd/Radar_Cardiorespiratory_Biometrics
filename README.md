@@ -29,7 +29,7 @@ made honest?**
 |---|---|---|
 | Vital signs | recording level vs. synchronised reference | HR MAE 1.54 bpm (120 GHz), BR MAE 1.27 bpm (dogs) |
 | Individual identification | temporal-block split with a guard gap | 46.1 % (30 dogs, 13.8× chance) vs. 54.4 % for the leaky random-window split |
-| Open set | 10 known / 20 unknown dogs, threshold calibrated on held-out windows | 84.2 % accept / 22.8 % reject, AUROC ≈ 0.53 — **chance**; the 89.6 % rejection of the original fixed split does not generalise |
+| Open set | 10 known / 20 unknown dogs, threshold calibrated on held-out windows | 86.7 % accept / 19.3 % reject, AUROC 0.525 — **chance**; the 89.6 % rejection of the original fixed split does not generalise |
 | Cross-species | subject-grouped CV, 110 humans vs 30 dogs | 90.2 % accuracy / 86.2 % balanced — but a **same-species, cross-hardware** control (60 GHz vs. 120 GHz humans) reaches 94.2 % / 93.8 % |
 | Grid dependence | dog channel decimated 50 Hz → 10 Hz | legacy grid-dependent descriptors lose 15 points of balanced accuracy; the 16 invariant descriptors lose 0.2 |
 
