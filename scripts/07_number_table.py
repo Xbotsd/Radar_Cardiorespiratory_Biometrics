@@ -104,7 +104,7 @@ ROWS = [
      "B_all110_grouped.RF.auroc", "r3"),
     ("Species", "Windows: dogs / humans", "cross_species_summary.json",
      "B_all110_grouped.RF", "windows"),
-    ("Species", "NC1 hardware control, balanced accuracy", "cross_species_summary.json",
+    ("Species", "NC1 cross-platform control, balanced accuracy", "cross_species_summary.json",
      "NC1_human60_vs_human120.inv16.balanced_acc", "pct1"),
     ("Species", "NC1 with grid-dependent descriptors", "cross_species_summary.json",
      "NC1_human60_vs_human120.inv16+grid5.balanced_acc", "pct1"),

@@ -82,7 +82,8 @@ known.  We did not keep searching for a split that produces a high number.
 
 For cross-species, the pre-specified positive control was 90 % accuracy, and
 the negative control (human 60 GHz vs. human 120 GHz, same species, different
-hardware) was run **before** interpreting the 90 % as species information.
+hardware, different subjects and protocol) was run **before** interpreting the 90 % as
+species information.
 
 ## 6. Reproducibility
 

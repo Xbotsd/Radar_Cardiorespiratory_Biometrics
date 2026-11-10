@@ -70,7 +70,7 @@ number that changes in the code cannot silently stay in the paper.
 | Dogs vs 110 adults, balanced accuracy | 86.2 % | `results/cross_species_summary.json` → `B_all110_grouped.RF.balanced_acc` |
 | Dogs vs 110 adults, AUROC | 0.945 | `results/cross_species_summary.json` → `B_all110_grouped.RF.auroc` |
 | Windows: dogs / humans | 560 dog / 1408 human windows | `results/cross_species_summary.json` → `B_all110_grouped.RF` |
-| NC1 hardware control, balanced accuracy | 93.8 % | `results/cross_species_summary.json` → `NC1_human60_vs_human120.inv16.balanced_acc` |
+| NC1 cross-platform control, balanced accuracy | 93.8 % | `results/cross_species_summary.json` → `NC1_human60_vs_human120.inv16.balanced_acc` |
 | NC1 with grid-dependent descriptors | 100.0 % | `results/cross_species_summary.json` → `NC1_human60_vs_human120.inv16+grid5.balanced_acc` |
 | NC2 anaesthetised vs awake dogs | 83.5 % | `results/cross_species_summary.json` → `NC2_dog_scen1_vs_scen2.inv16.balanced_acc` |
 | NC3 human rest vs post-exercise | 67.0 % | `results/cross_species_summary.json` → `NC3_p60_rest_vs_post.inv16.balanced_acc` |

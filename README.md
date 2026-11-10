@@ -30,7 +30,7 @@ made honest?**
 | Vital signs | recording level vs. synchronised reference | HR MAE 1.54 bpm (120 GHz), BR MAE 1.27 bpm (dogs) |
 | Individual identification | temporal-block split with a guard gap | 46.1 % (30 dogs, 13.8× chance) vs. 54.4 % for the leaky random-window split |
 | Open set | 10 known / 20 unknown dogs, threshold calibrated on held-out windows | 86.7 % accept / 19.3 % reject, AUROC 0.525 — **chance**; the 89.6 % rejection of the original fixed split does not generalise |
-| Cross-species | subject-grouped CV, 110 humans vs 30 dogs | 90.2 % accuracy / 86.2 % balanced — but a **same-species, cross-hardware** control (60 GHz vs. 120 GHz humans) reaches 94.2 % / 93.8 % |
+| Cross-species | subject-grouped CV, 110 humans vs 30 dogs | 90.2 % accuracy / 86.2 % balanced — but a **same-species, cross-platform** control (110 adults at 60 GHz vs. 24 other adults at 120 GHz) reaches 94.2 % / 93.8 % |
 | Grid dependence | dog channel decimated 50 Hz → 10 Hz | legacy grid-dependent descriptors lose 15 points of balanced accuracy; the 16 invariant descriptors lose 0.2 |
 
 The last two rows are the central claim: on these public data a dog-vs-human
@@ -44,7 +44,7 @@ same-radar, same-session animal/human recording.
 ![Cross-species contrast and its controls](figures/fig4_species.png)
 
 *Balanced accuracy of the species contrast against three same-data negative
-controls. The hardware-only control is the hardest to separate, not the
+controls. The cross-platform control is the hardest to separate, not the
 easiest.*
 
 ![Leakage ladder](figures/fig1_protocol.png)
@@ -120,7 +120,7 @@ directly from their publishers.
 | BR MAE 1.27 bpm, 10 dogs | `02_vital_signs.py` | `results/vitals_summary.json` |
 | 46.1 % temporal-block, 54.4 % leaky | `03_identification.py` | `results/identification_summary.json` |
 | open-set 84 %/23 %, AUROC 0.53 | `03_identification.py` | `results/identification_summary.json` |
-| 90.2 % species, 94.2 % hardware control | `04_cross_species.py` | `results/cross_species_summary.json` |
+| 90.2 % species, 94.2 % cross-platform control | `04_cross_species.py` | `results/cross_species_summary.json` |
 | grid-dependent descriptors collapse 50→10 Hz | `05_rate_matched_age.py` | `results/rate_matched_age_summary.json` |
 
 The complete claim-by-claim mapping is in [`docs/NUMBERS.md`](docs/NUMBERS.md);

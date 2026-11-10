@@ -248,7 +248,7 @@ def fig_effect():
     ax.scatter([sp[k] for k in order], y, s=16, label="dog vs. human (species)", color=C_DOG,
                zorder=3)
     ax.scatter([hw[k] for k in order], y, s=16, marker="s",
-               label="human 60 GHz vs. human 120 GHz (hardware only)", color=C_GRID, zorder=3)
+               label="human 60 GHz vs. human 120 GHz (cross-platform)", color=C_GRID, zorder=3)
     for i, k in enumerate(order):
         ax.plot([hw[k], sp[k]], [i, i], color="grey", lw=0.6, zorder=1)
     ax.axvline(0, color="black", lw=0.6)
@@ -258,7 +258,7 @@ def fig_effect():
     ax.set_xlabel("standardised mean difference (Cohen's $d$)")
     ax.legend(fontsize=6.5, frameon=False, loc="upper center", bbox_to_anchor=(0.5, -0.26),
               ncol=2, handletextpad=0.4, columnspacing=1.2)
-    ax.set_title("species contrast (circles) vs. hardware-only contrast (squares)", fontsize=7)
+    ax.set_title("species contrast (circles) vs. cross-platform contrast (squares)", fontsize=7)
     fig.tight_layout()
     save(fig, "fig5_effect_sizes")
 
