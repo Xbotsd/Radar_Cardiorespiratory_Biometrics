@@ -1,0 +1,52 @@
+{
+  "title": "rcb: leakage-aware evaluation of radar cardiorespiratory biometrics",
+  "description": "<p>Reference code, feature tables and result files for a re-evaluation of radar cardiorespiratory biometrics on three public datasets (30 dogs, 7.3 GHz ultra-wideband; 110 adults, 60 GHz FMCW; 24 adults, 120 GHz FMCW).</p><p>The question is protocol rather than model: how much of a reported cardiorespiratory biometric score survives when window overlap is removed, when the sampling grid is matched, and when a same-species cross-hardware control is run alongside the species contrast?</p><p>The repository contains the installable <code>rcb</code> package (loaders, filters, 19-D identification and 16-D invariant descriptor sets, multi-bin vital-sign estimator with harmonic notching), the five experiment scripts that generate every table in the manuscript, the figure script, the committed feature tables and result JSONs, 39 unit tests, and a generated number table that maps each quoted value to its result field.</p><p>Reported results include: dog heart-rate MAE 7.11 bpm and breathing-rate MAE 1.27 bpm; closed-set identification of 30 dogs at 54.4 % under window-level cross-validation, 46.1 % under a subject-grouped temporal split and 16.3 % at a 25 min horizon; open-set verification at chance (AUROC 0.52-0.59) across 20 random partitions, against 0.949 on one fixed split; dog-vs-human balanced accuracy 86.2 %, smaller than the 93.8 % of a same-species cross-hardware control.</p><p>No raw datasets are redistributed: the three sources are public and cited with DOIs. Feature tables are derived data and are included so the classifiers can be re-run without the raw recordings.</p>",
+  "creators": [
+    {
+      "name": "Xu, Yudong",
+      "affiliation": "School of Mechanical Engineering, Heilongjiang University of Science and Technology, Harbin 150022, China",
+      "orcid": "0009-0002-3231-0444"
+    }
+  ],
+  "keywords": [
+    "radar vital signs",
+    "cardiorespiratory biometrics",
+    "millimetre-wave radar",
+    "open-set recognition",
+    "cross-species",
+    "leakage",
+    "data leakage",
+    "reproducibility",
+    "negative controls",
+    "physiological measurement"
+  ],
+  "license": {
+    "id": "MIT"
+  },
+  "upload_type": "software",
+  "publication_date": "2026-11-10",
+  "version": "1.0.0",
+  "language": "eng",
+  "access_right": "open",
+  "related_identifiers": [
+    {
+      "identifier": "10.6084/m9.figshare.23820915.v1",
+      "relation": "references",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.34810/data2962",
+      "relation": "references",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/Xbotsd/Radar_Cardiorespiratory_Biometrics",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ],
+  "notes": "No external funding. The three datasets are third-party public deposits and are not redistributed here; docs/DATA.md lists their DOIs and the exact folder layout the loaders expect."
+}

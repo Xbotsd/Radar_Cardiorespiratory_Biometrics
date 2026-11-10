@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the article below."
+title: "rcb - leakage-aware evaluation of radar cardiorespiratory biometrics"
+version: 1.0.0
+date-released: 2026-11-10
+license: MIT
+repository-code: https://github.com/Xbotsd/Radar_Cardiorespiratory_Biometrics
+authors:
+  - family-names: Xu
+    given-names: Yudong
+    email: 3468858545@qq.com
+    orcid: https://orcid.org/0009-0002-3231-0444
+    affiliation: "School of Mechanical Engineering, Heilongjiang University of Science and Technology, Harbin 150022, China"
+preferred-citation:
+  type: article
+  title: "Cross-species separability of radar cardiorespiratory signatures is no larger than cross-hardware separability: a leakage-aware re-evaluation of three public datasets"
+  authors:
+    - family-names: Xu
+      given-names: Yudong
+  year: 2026
+  note: "Submitted to Physiological Measurement (IOP Publishing)."
