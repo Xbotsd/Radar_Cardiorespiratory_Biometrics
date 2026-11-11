@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the article below."
 title: "rcb - leakage-aware evaluation of radar cardiorespiratory biometrics"
-version: 1.0.1
+version: 1.1.0
 date-released: 2026-11-10
 license: MIT
 repository-code: https://github.com/Xbotsd/Radar_Cardiorespiratory_Biometrics
@@ -18,4 +18,4 @@ preferred-citation:
     - family-names: Xu
       given-names: Yudong
   year: 2026
-  note: "Submitted to Physiological Measurement (IOP Publishing)."
+  note: "Submitted to Measurement (Elsevier)."

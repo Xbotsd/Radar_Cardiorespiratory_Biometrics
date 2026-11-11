@@ -1,0 +1,7 @@
+Highlights
+
+- Window overlap raises dog identification from 16.3 % to 54.4 %.
+- Open-set rejection of 89.6 % falls to chance across 20 partitions.
+- Dog-versus-human separability (86.2 %) is below a 93.8 % platform control.
+- Age regression does not beat the mean (R² = −0.15, p = 0.26).
+- A tested pipeline and a value-by-value number table back every result.

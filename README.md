@@ -128,12 +128,20 @@ a Chinese walkthrough is in [`docs/使用说明.md`](docs/使用说明.md).
 
 ## Paper
 
-* `paper/PMEA_manuscript.pdf` — submitted version (structured abstract,
-  Harvard references, figures and tables in place)
-* `paper/cover_letter.pdf` — cover letter sent with the submission
-* `paper/SUBMISSION.md` — checklist used before submission and the manual
-  steps that remain (ORCID confirmation, reviewer suggestions, declaration
-  form)
+The manuscript is prepared for submission to *Measurement* (Elsevier):
+
+* `paper/measurement/manuscript.pdf` — submission version: Elsevier layout, five
+  highlights, unstructured 237-word abstract, 22 numbered references, 7 figures
+  and 7 tables
+* `paper/measurement/cover_letter.pdf` — cover letter
+* `paper/measurement/SUBMISSION.md` — pre-submission checklist and the manual
+  steps that remain (ORCID, reviewers, declarations)
+* `paper/measurement/Highlights.txt` — the five highlights as plain text
+
+The numbers in that version are identical to the earlier
+`paper/PMEA_manuscript.pdf` (prepared for *Physiological Measurement*, IOP, not
+submitted), which is kept for reference together with its own cover letter and
+checklist.
 
 ## Citation
 

@@ -5,4 +5,4 @@ Reference implementation for the paper
 than cross-hardware separability: a leakage-aware re-evaluation of three public
 datasets".
 """
-__version__ = "1.0.1"
+__version__ = "1.1.0"
